@@ -1,0 +1,40 @@
+<html>
+ <head>
+<link rel="import" href="1.html">
+<link rel="import" href="0.html">
+<link rel="import" href="2.html">
+<script> 
+var doc = document.querySelectorAll('link[rel="import"]'); 
+for(i of doc) { 
+var cool = i.import; 
+var go = cool.querySelector('.wrapper'); 
+document.body.appendChild(go.cloneNode(true)); 
+} 
+</script>
+  <title>Навчання</title>
+	<style>
+li {
+display: table-cell;
+}
+	 body {
+    background: url(bg.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+     /* Современные браузеры */ /* Цвет фона и путь к файлу */
+    color: #fff; /* Цвет текста */
+   }
+	</style>
+ </head>
+ <body>
+  <H1 align="center">Навчання</H1>
+
+	
+	<p align="left"><input type="button" value="Головна" onClick='location.href="file:///C:/Users/Кто/Desktop/Site/0.html"'></p>
+	<p align="center"><input type="button" value="Професія" onClick='location.href="file:///C:/Users/Кто/Desktop/Site/2.html"'></p>
+<br><br><br><br>
+<p align="center">Единий заклад який мені подобається</p>
+<p align="center"><input type="button" value="Заклад" onClick='location.href="http://www.kpi.kharkov.ua/rus/"'></p>
+
+ </body>
+</html>
